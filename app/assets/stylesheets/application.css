@@ -1,3 +1,8 @@
+.create-content a {
+	font-size: 50px;
+	display: block;
+	margin-top: 50px;
+}
 .index-content {
 	padding: 30px 0;
 	border-bottom: 1px solid black;
@@ -139,9 +144,12 @@ p {
 	color: #10abd2;
 	color: white;
 	line-height: 1.7;
+	word-wrap: break-word;
 }
 a {
 	text-decoration: none;
+	word-wrap: break-word;
+
 }
 h1,h2,h3,h4,h5,h6,p,a {
 	font-family: Arial, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
