@@ -1,5 +1,8 @@
-<div class="contents row" >
-<% @tweets.each do |tweet| %>
-<p><%= tweet.text %></p>
-<% end %>
+<div class="index-wrp" >
+	<% @tweets.each do |tweet| %>
+	<div class="index-content">
+		<p><%= tweet.title %></p>
+		<p><%= tweet.text %></p>
+	</div>
+	<% end %>
 </div>

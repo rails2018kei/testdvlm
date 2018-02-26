@@ -1,14 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Testdvlm</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
+	<title>Testdvlm</title>
+	<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+	<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+	<%= csrf_meta_tags %>
 </head>
 <body>
 
-<%= yield %>
+	<div class="header alicen">
+		<div class="header-content disgri50">
+			<a href="/tweets">TOP</a>
+			<a href="/tweets/new">NEW</a>
+		</div>
+	</div>
+
+	<div class="body-wrp">
+		<%= yield %>
+	</div>
+
+	<div class="footer alicen">
+		<p>
+			copyright yourname
+		</p>
+	</div>
 
 </body>
 </html>
